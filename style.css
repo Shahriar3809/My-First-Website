@@ -1,0 +1,220 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;;
+}
+.header {
+    background: #3E5C9A;
+    overflow: hidden;
+    padding: 7px 0px;
+}
+.container {
+    width: 65%;
+    margin: auto;
+    max-width: 1000px;
+}
+.logo-area {
+    width: 30%;
+    float: left;
+}
+.logo-area img {
+    width: 170px;
+    margin-top: 20px;
+    height: auto;
+
+}
+.login-area {
+    width: 70%;
+    float: left;
+    color: white;
+}
+.login-area form {
+    float: right;
+    margin-top: 7px;
+}
+.login-area label, .login-area input {
+    display: block;
+
+}
+.login-area label {
+    font-size: 15px;
+    margin: 3px;
+}
+.login-area .email, 
+.login-area .password, 
+.login-area .login {
+    float: left;
+    margin-right: 15px;
+}
+.login-area .login {
+    margin-right: 0;
+}
+#Email, #Password {
+    border: 1px solid black;
+    padding: 3px 0px;
+    font-weight: 300;
+    font-size: 12px;
+}
+.login-area .password a {
+    text-decoration: none;
+    color: rgb(231, 230, 229);
+    font-size: 12px;
+}
+.login-area .password a:hover {
+    text-decoration: underline;
+}
+.login-area .login input {
+    color: #fff;
+    background-color: #4267b2;
+    border: 1px solid #29487d;
+    padding: 4px 8px;
+    margin-top: 24px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*End Header CSS*/
+
+section {
+    background: linear-gradient(#fff, #d4d9e9);
+    overflow: hidden;
+}
+.leftside {
+    width: 55%;
+    float: left;
+}
+.rightside {
+    width: 40%;
+    float: right;
+}
+.leftside h4 {
+    color: navy;
+    font-size: 20px;
+    width: 90%;
+}
+.leftside img {
+    width: 100%;
+}
+
+.rightside h1 {
+    color: rgb(0, 0, 0);
+    margin-top: 20px;
+}
+.rightside p {
+    color:rgb(0, 0, 0);
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    
+}
+.fullname {
+    box-sizing: border-box;
+    
+}
+.firstname {
+    width: 47%;
+    float: left;
+    margin-right: 5%;
+}
+.lastname {
+    width: 47%;
+    float: left;
+    
+}
+.rightside form .fullname input, .rightside form .me input {
+    width: 100%;
+}
+.firstname input, .lastname input {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 2, 2);
+    font-size: 15px;   
+}
+.fullname input, form input {
+    margin-bottom: 15px;
+}
+form input {
+    padding: 10px 5px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 2, 2);
+    font-size: 15px;   
+}
+.birthday {
+    overflow: hidden;
+    margin-right: 10px;
+    width: 100%;
+}
+.birthday select {
+    border: 1px solid #000;
+    padding: 5px;
+    float: left;
+    overflow: hidden;
+    margin-right: 5px;
+    border-radius: 3px;
+}
+.birthday a {
+    float: left;
+    width: 200px;
+}
+.birthday .date {
+    float: left;
+    width: 55%;
+}
+.birthday .linkdiv {
+    float: left;
+    width: 30%;
+    margin-left: 0px;
+    margin-top: -8px;
+    overflow: hidden;
+}
+.birthday .linkdiv a {
+    font-size: 14px;
+    width: 100%;
+    text-decoration: none;
+}
+.birthday .linkdiv a:hover {
+    text-decoration: underline;
+}
+.gender {
+    width: 200px;
+    margin-top: 20px;
+    overflow: hidden;
+}
+.gender label {
+    cursor: pointer;
+    font-size: 20px;
+}
+.textbox {
+    margin-bottom: 10px;
+}
+.textbox p {
+    font-size: 15px;
+    width: 80%;
+    
+}
+form .btn input {
+    padding: 05px 15px;
+    border-radius: 5px;
+    border: 1px solid rgb(2, 2, 2);
+    font-size: 15px;   
+    background: linear-gradient(#79c965, #538f3c);
+    color: white;
+    font-weight: 500px;
+    cursor: pointer;
+    box-shadow: inset 0px 1px 1px rgb(115, 168, 115);
+}
+
+.last p{
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+.last p a {
+    font-size: 18px;
+    text-decoration: none;
+}
+.last p a:hover {
+    text-decoration: und;
+}
