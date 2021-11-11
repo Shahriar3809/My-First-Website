@@ -19,8 +19,38 @@
         float: none;
 
     }
-
-    
+    .leftside {
+        width: 100%;
+        float: none;
+    }
+    .rightside {
+        width: 100%;
+        float: none;
+    }
+    form {
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+    .me input{
+        box-sizing: border-box;
+    }
+    .fullname {
+        width: 100%;
+    }
+    .me input {
+        width: 100%;
+    }
+    .firstname {
+        width: 45%;
+        float: left;
+        margin-right: 5%;
+    }
+    .lastname {
+        width: 45%;
+        float: right;
+        padding-right: 12px;
+        
+    }
 }
 
 
@@ -51,3 +81,5 @@
     }
 
 }
+
+
